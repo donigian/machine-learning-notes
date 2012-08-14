@@ -1,0 +1,23 @@
+Supervised learning, in which the data comes with additional attributes that we want to predict
+
+Classification: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data. An example of classification problem would be the digit recognition example, in which the aim is to assign each input vector to one of a finite number of discrete categories.
+
+Regression: if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
+
+Linear Regression with 1 variable
+ex: h(x) = theta0 + theta1X
+h: hypothesis
+x: features
+different choises for theta1 & theta0 results in different hypothesis
+training set is input into learning algorithm
+solving linear regression means to minimize the square of different between prediction of hypothesis & actual value (price of house for instance)
+
+Unsupervised learning, in which the training data consists of a set of input vectors x without any corresponding target values. The goal in such problems may be to discover groups of similar examples within the data, where it is called clustering, or to determine the distribution of data within the input space, known as density estimation, or to project the data from a high-dimensional space down to two or thee dimensions for the purpose of visualization
+
+
+Unsupervised learning algorithms work well for types of problems:
+organize computing clusters, market segmentation, social network analysis, astronomical data analysis
+
+m: # of training examples
+x's: input variables/features
+y's: output variables/target variable
