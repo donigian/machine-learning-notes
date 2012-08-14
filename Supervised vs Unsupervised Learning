@@ -21,3 +21,6 @@ organize computing clusters, market segmentation, social network analysis, astro
 m: # of training examples
 x's: input variables/features
 y's: output variables/target variable
+
+
+Machine learning is about learning some properties of a data set and applying them to new data. This is why a common practice in machine learning to evaluate an algorithm is to split the data at hand in two sets, one that we call a training set on which we learn data properties, and one that we call a testing set, on which we test these properties.
