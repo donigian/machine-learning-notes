@@ -1,0 +1,15 @@
+
+Gradient Descent 
+need to choose alpha
+needs many iterations 
+works well even for large n (10^6)
+
+Normal Equation
+no need to choose alpha
+don't need to iterate
+need to compute pinv(X^T X) 
+slow if n is large, 10^6
+
+If X^T X is non-invertible...
++ redundant features x1=(2.1)^2 x2
++ too many features, delete some features or use regularization
