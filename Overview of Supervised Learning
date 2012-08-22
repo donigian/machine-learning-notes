@@ -1,0 +1,21 @@
+Overview of Supervised Learning
+Linear decision boundary from least squares is very smooth and stable. 
+realies heavily on assumption that a linear decision boundary is approperiate. 
+It has low variance and potentially high bias.
+
+k-nearest neighbor procedures do not appear to rely on stringent assumptions about underlying data, can adapt to any situation. Any subregion of the decision boundary depends on handful of input points and their positions, thus high variance and low bias.
+
+1-nearest-neighbor, the simplest of all,
+captures a large percentage of the market for low-dimensional problems.
+
+simple procedures have been enhanced:
+
+Kernel methods use weights that decrease smoothly to zero with distance from the target point, rather than the eﬀective 0/1 weights used by k-nearest neighbors.
+
+In high-dimensional spaces the distance kernels are modiﬁed to emphasize some variable more than others.
+
+Local regression ﬁts linear models by locally weighted least squares, rather than ﬁtting constants locally.
+
+Linear models ﬁt to a basis expansion of the original inputs allow arbitrarily complex models.
+
+Projection pursuit and neural network models consist of sums of nonlinearly transformed linear models.
