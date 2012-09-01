@@ -1,0 +1,16 @@
+Hypothesis is a  func of x, this is the best approximation depending on the data values.
+
+
+Cost func is a func of parameter theta-1. It's a vertical distance of the difference squared between h(x(1)) & y(1)
+theta-1 can take a range of values
+
+Objective function for linear regression is to minimize cost function J.
+
+Multiple theta values result in a contour plots for cost function.
+
+Gradient descent: start with some values for theta0 & theta1
+Keep changing theta0, theta1 to reduce J(theta0, theta1) until we hopefully end up at a minimum
+
+Gradient descent can converge to a local minimum even with a fixed learning rate alpha. As we approach a local minimum, gradient descent will automtically take smaller step, so no need to decrease alpha over time.
+
+If theta1 is at a local optimum, then one step of gradient descent will not change theta1.
