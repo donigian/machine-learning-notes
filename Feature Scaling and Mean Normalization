@@ -17,3 +17,19 @@ J(theta) eventually flattens out. # of iterations could be different for each ca
 
 You can define automatic converge tests if J(theta) decreases by 10^-3 after each iteration.
 Use smaller alpha if gradient descent is not decreasing. If J(theta) is too small, gradient descent can be slow to converge.
+
+Features & Polynomial Regression
+Define new features to get better models.
+
+Normal Eqn will solve for theta analytically, instead of iterative nature of gradient descent 
+
+ gradient descent 
+ + need to choose alpha
+ + needs many iterations
+ + works well with large n 
+
+ Normal Eqn
+ + no need to choose alpha
+ + don't need to iterate
+ + Need to compute (X^TX)^-1 cost of inverting an inverse is O(n^3), slow for large n.  Size of n determines which method to use.
+
