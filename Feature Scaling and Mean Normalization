@@ -1,0 +1,19 @@
+Feature Scaling
+Make sure features are on similar scale. Elipsoids are too narrow and thus take longer for each step of gradient descent to converge. By scaling features, elipsoid becomes more uniformly shaped.
+Get every feature into approx -1 <= X1 <= 1 range 
+
+Mean Normalization
+Replace Xi with Xi - Ui to make features have approx zero mean
+(not apply to X0=1)
+
+X1 = ( size - 1000 ) / 2000
+
+or (X1 - U1) / S1 where S1 = max - min
+
+Learning Rate Alpha
+How to choose alpha to make sure gradient descent is working correctly.
+Job of gradient descent is to minimize cost func J(theta). Value of cost func should be decreasing after every iteration if it's working properly.
+J(theta) eventually flattens out. # of iterations could be different for each case.
+
+You can define automatic converge tests if J(theta) decreases by 10^-3 after each iteration.
+Use smaller alpha if gradient descent is not decreasing. If J(theta) is too small, gradient descent can be slow to converge.
